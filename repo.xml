@@ -1,12 +1,12 @@
 <repo>
 	<footerlinks>
 		<link>
-			<name>Follow me on Twitter</name>
-			<url>https://twitter.com/reposi3</url>
-			<iconclass>fa fa-twitter</iconclass>
+			<name>Message me on Discord</name>
+			<url>Xikeon#0001</url>
+			<iconclass>fa fa-discord</iconclass>
 		</link>
 		<link>
-			<name>I want this depiction template</name>
+			<name>Cydia repository template</name>
 			<url>https://github.com/supermamon/Reposi3/</url>
 			<iconclass>fa fa-thumbs-up</iconclass>
 		</link>
