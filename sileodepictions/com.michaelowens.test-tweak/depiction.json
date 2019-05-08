@@ -1,0 +1,78 @@
+{
+  "minVersion": "0.1",
+	"headerImage": "https://cdn.vox-cdn.com/thumbor/1kCL8RVhNLvDYhjE13e04obPjSg=/0x0:2040x1020/1200x675/filters:focal(913x404:1239x730)/cdn.vox-cdn.com/uploads/chorus_image/image/59730879/twitch_emote_banner_v2.0.jpg",
+	"tintColor": "#3f4042",
+	"tabs": [
+		{
+			"tabname": "Details",
+      "views": [
+				{
+					"itemCornerRadius": 6,
+					"itemSize": "{320, 275.41333333333336}",
+					"class": "DepictionScreenshotsView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "## xDock\nxDock allows you to modify your dock in every way you can imagine... Maybe... in the future. For now it just hides the background"
+				},
+				{
+					"title": "Test link?",
+					"action": "http://owens.nl",
+					"class": "DepictionTableButtonView"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"title": "Latest Version",
+					"class": "DepictionHeaderView"
+				},
+				{
+					"title": "Version",
+					"text": "0.0.1-33",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Released",
+					"text": "8/5/2019",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Price",
+					"text": "FREE",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Developer",
+					"text": "Michael Owens",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Github",
+					"action": "https://github.com/michaelowens",
+					"class": "DepictionTableButtonView"
+				},
+				{
+					"spacing": 16,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"spacing": 20,
+					"class": "DepictionSpacerView"
+				}
+			],
+			"class": "DepictionStackView"
+		},
+		{
+			"tabname": "Changelog",
+			"views": [
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 5/8/19</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				}
+			],
+			"class": "DepictionStackView"
+    }
+  ]
+}
