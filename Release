@@ -1,8 +1,8 @@
-Origin: Reposi3
-Label: Xikeons Tweaks
+Origin: Xikeon
+Label: Xikeons Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Xikeons Tweaks - a cydia repo template
+Description: Xikeons Repo - a cydia/sileo repo
