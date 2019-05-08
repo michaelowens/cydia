@@ -7,11 +7,6 @@
 			"tabname": "Details",
       "views": [
 				{
-					"itemCornerRadius": 6,
-					"itemSize": "{320, 275.41333333333336}",
-					"class": "DepictionScreenshotsView"
-				},
-				{
 					"class": "DepictionMarkdownView",
 					"markdown": "## xDock\nxDock allows you to modify your dock in every way you can imagine... Maybe... in the future. For now it just hides the background"
 				},
@@ -74,5 +69,6 @@
 			],
 			"class": "DepictionStackView"
     }
-  ]
+  ],
+  "class": "DepictionTabView"
 }
