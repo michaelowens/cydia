@@ -3,6 +3,26 @@ A Cydia repository template. This template contains sample on how you can easily
 
 Most data for this repo is stored on XML files and are loaded on the depiction page dynamically. See the guide below on how to set it up. Note that this guide doesn't cover creating .deb files but will briefly cover assiging depictions.
 
+## For me: How to create tweak and update repo
+
+In cygwin:
+
+```bash
+$ cd /opt/projects
+$ $THEOS/bin/nic.pl
+$ make package # generate deb
+$ make install # ssh to device
+```
+In cmder:
+
+```bash
+$ cd D:\Programming\cydia
+$ python C:\Python27\Scripts\dpkg-scanpackages.py -m .\debs\ > Packages
+$ rm Packages.bz2
+$ bzip2 Packages
+```
+
+
 ## How to use this template
 
 ### 1. Download
